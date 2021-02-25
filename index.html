@@ -5,88 +5,127 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style/Style.css">
     <title>Beautiful Cities</title>
 </head>
 
 <body>
-<div class="container">
+<div class="container" id="header">
     <header>
         <h1 class="page-header">Beautiful<span>Cities</span></h1>
         <ul class="nav-menu">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Blog</li></a>
-            <a href="#"><li>Gallery</li></a>
-            <a href="#"><li>Visit</li></a>
-            <a href="#"><li>Contact</li></a>
+            <a href="#header"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#blog"><li>Blog</li></a>
+            <a href="#visit"><li>Visit</li></a>
+            <a href="#gallery"><li>Gallery</li></a>
+            <a href="#contact"><li>Contact</li></a>
         </ul>
-    <div class="header-image">
+    <div class="header-image" id="about">
         <h2>Visit beautiful cities</h2>
         <p>The world is home to some 4,416 cities - from the crumbling grandeur of Rome to the bristling, ultra-modern towers of Shanghai. It includes tiny Adamstown, a microscopic settlement in the Pitcairn Islands with a population of only 48; it includes Venice, a floating city laced by idyllic canals and breathtaking palazzos. And like the people who inhabit them, each has its own distinctive personality, allure, photo-worthy moments, and reasons to pay them a visit.</p>
     </div>
     </header>
     
-    <section class="journey-ways">
+    <section class="journey-ways" id="blog">
         <h2>Ways to travel with <span>us</span></h2>
         <p id="journey-explain">Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</p>
     <div class="travel-ways">
         <div class="ways-to-travel">
-            <img src="Icon1.svg" alt="bus_icon">
-            <h3>Travel by bus</h3>
+            <img src="img/Icon1.svg" alt="bus_icon">
+            <h3><a href="https://global.flixbus.com/">Travel by bus</a></h3>
             <p>Find bus timetable and buy your bus ticket online, long-distance and international buses, travelling with bus is easy, cheap, fast and comfortable.</p>
         </div>
           <div class="ways-to-travel">
-            <img src="Icon2.svg" alt="airplane_icon">
-            <h3>Travel by <span>airplane</span></h3>
+            <img src="img/Icon2.svg" alt="airplane_icon">
+            <h3><a href="https://wizzair.com/en-gb#/">Travel by <span>airplane</span></a></h3>
             <p>Air travel is a form of travel in vehicles such as helicopters, hot air balloons, blimps, gliders, hang glider, parachuting, airplanes, jet aircraft, or anything else that can sustain flight.</p>
         </div>
           <div class="ways-to-travel">
-            <img src="Icon3.svg" alt="car_icon">
-            <h3>Travel by car</h3>
+            <img src="img/Icon3.svg" alt="car_icon">
+            <h3><a href="https://www.blablacar.com/">Travel by car</a></h3>
             <p>When going somewhere by car, you will reach the destination. Besides, if you decide to visit one more place, there is no problem at all. With a car, you are as flexible as your budget and timing allow you.</p>
         </div>
     </div>
     </section>
     
-    <section class="city-images">
+    <section class="city-images" id="visit">
         <div class="images-of-cities">
             <div class="city-image">
-                <img src="2.jpg" alt="city image1">
-                <h3>Prague</h3>
+                <img src="img/2.jpg" alt="city image1">
+                <h3><a href="https://en.wikipedia.org/wiki/Prague">Prague</a></h3>
                 <p>Prague, capital city of the Czech Republic, is bisected by the Vltava River. Nicknamed “the City of a Hundred Spires,” it's known for...</p>
             </div>
              <div class="city-image">
-                <img src="3.jpg" alt="city image2">
-                <h3>Barcelona</h3>
+                <img src="img/3.jpg" alt="city image2">
+                <h3><a href="https://en.wikipedia.org/wiki/Barcelona">Barcelona</a></h3>
                 <p>Barcelona, the cosmopolitan capital of Spain’s Catalonia region, is known for its art and architecture...</p>
             </div>
              <div class="city-image">
-                <img src="4.jpg" alt="city image3">
-                <h3>Bari</h3>
+                <img src="img/4.jpg" alt="city image3">
+                <h3><a href="https://en.wikipedia.org/wiki/Bari">Bari</a></h3>
                 <p>Bari is a port city on the Adriatic Sea, and the capital of southern Italy’s Puglia region. Its mazelike old town, Barivecchia...</p>
             </div>
              <div class="city-image">
-                <img src="5.jpg" alt="city image4">
-                <h3>Stockholm</h3>
+                <img src="img/5.jpg" alt="city image4">
+                <h3><a href="https://en.wikipedia.org/wiki/Stockholm">Stockholm</a></h3>
                 <p>Stockholm, the capital of Sweden, encompasses 14 islands and more than 50 bridges on an extensive Baltic Sea archipelago...</p>
             </div>
              <div class="city-image">
-                <img src="6.jpg" alt="city image5">
-                <h3>Belgrade</h3>
+                <img src="img/6.jpg" alt="city image5">
+                <h3><a href="https://en.wikipedia.org/wiki/Belgrade">Belgrade</a></h3>
                 <p>Belgrade is the capital and largest city of Serbia. It is located at the confluence of the Sava and Danube rivers...</p>
             </div>
              <div class="city-image">
-                <img src="7.jpg" alt="city image6">
-                <h3>Athens</h3>
+                <img src="img/7.jpg" alt="city image6">
+                <h3><a href="https://en.wikipedia.org/wiki/Athens">Athens</a></h3>
                 <p>Athens is the capital of Greece. It was also at the heart of Ancient Greece, a powerful civilization and empire...</p>
             </div>
+        </div>
+    </section>
+    
+    <section class="two-parter">
+        <div class="slideshow-container" id="gallery">
+            <div class="mySlides fade">
+                <img src="img/gallery1.jpg" alt="Bratislava">
+            </div>
+            <div class="mySlides fade">
+                <img src="img/gallery2.jpg" alt="Oslo">
+            </div>
+            <div class="mySlides fade">
+                <img src="img/gallery3.jpg" alt="Paris">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h2>Contact us</h2>
+            <p>Where to go, what to see? Contact us and we will share our experience!</p>
+            <br>
+            <form action="https://submit-form.com/NCcIqsu8N0aspkVZ5BDYj" target="_self">
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="name">
+                <label for="mail">Your e-mail</label>
+                <input type="email" name="mail" id="mail">
+                <label for="message">Your message</label>
+                <textarea name="idMessage" id="message" rows="5"></textarea>
+                <button class="btn">Submit</button>
+            </form>
         </div>
     </section>
     
     <footer>
         <p>&copy; Seven2Heaven 2020; Done by Milovan Srdanović</p>
     </footer>
+    
+<script src="main.js"></script>
+    
 </div>
 </body>
 
