@@ -1,0 +1,399 @@
+/*
+Colors:
+Dark Blue: #222f3e;
+Milky Green: #1dd1a1;
+Glaucous: #7180AC;
+*/
+
+/* --------------------------
+        Basic Setup
+-------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* --------------------------
+           Header
+-------------------------- */
+
+body {
+    background-color: #fbfbfb;
+}
+.page-header {
+    background-color: #222f3e;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    padding-left: 70px;
+}
+.page-header span {
+    margin-left: 5px;
+    color: #1dd1a1;
+}
+
+/* -----------------------
+        Nav menu
+------------------------ */
+
+.nav-menu {
+    padding: 10px 0 10px 120px;
+}
+.nav-menu a {
+    color: #ccc;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav-menu a:hover {
+    color: #222f3e;
+    font-weight: 700;
+}
+.nav-menu li {
+    padding: 20px;
+}
+
+.btn-toggle-nav {
+    color: #ccc;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-toggle-nav:hover {
+    color: #222f3e;
+    font-weight: 700;
+}
+
+/* -----------------------
+       Image & Text
+------------------------ */
+
+.header-image {
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0,0.7)), url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.header-image h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.header-image p {
+    margin: 20px 170px;
+    text-align: center;
+}
+
+/* -----------------------
+        Journey ways
+------------------------ */
+
+.journey-ways {
+    width: 90%;
+    margin: auto;
+    padding: 70px;
+    padding-bottom: 40px;
+}
+.journey-ways h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #222f3e;
+    font-size: 35px;
+    font-weight: 300;
+}
+.journey-ways h2 span {
+    color: #1dd1a1;
+    font-weight: 700;
+}
+#journey-explain {
+    color: #222f3e;
+    text-align: center;
+    margin-top: 15px;
+}
+.travel-ways {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+.ways-to-travel {
+    width: 30%;
+}
+.ways-to-travel:nth-child(2) {
+    margin-top: 30px;
+}
+.ways-to-travel h3 {
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #222f3e;
+}
+.ways-to-travel span {
+    color: #1dd1a1;
+}
+.ways-to-travel p {
+    margin-top: 10px;
+    color: #222f3e;
+}
+
+.ways-to-travel a {
+    color: #222f3e;
+}
+
+.ways-to-travel a span {
+    color: #1dd1a1;
+}
+
+.ways-to-travel a:hover {
+    color: #1dd1a1;
+}
+
+/* -----------------------
+        City Gallery
+------------------------ */
+
+.city-images {
+    padding-top: 40px;
+    background-color: #1dd1a1;
+    color: #222f3e;
+}
+
+.images-of-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.city-image {
+    width: 29%;
+    margin-bottom: 25px;
+    background-color: #fbfbfb;
+}
+
+.city-image a {
+    color: #222f3e;
+}
+
+.city-image a:hover {
+    color: #1dd1a1;
+    cursor: pointer;
+}
+
+.city-image img {
+    width: 100%;
+}
+
+.city-image h3 {
+    padding: 15px;
+}
+
+.city-image p {
+    padding: 0 15px 10px 15px;
+}
+
+/* -----------------------
+     Two-parter Section
+------------------------ */
+
+.two-parter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+    max-width: 1400px;
+    background-color: #1dd1a1;
+}
+
+/* -----------------------
+        JS Gallery
+------------------------ */
+
+.slideshow-container {
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.slideshow-container img {
+    max-height: 550px;
+}
+
+.dots {
+    text-align: center;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #1dd1a1;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(113, 128, 172, 0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #222f3e;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #7180AC;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* --------------------------
+        Contact section
+-------------------------- */
+.contact {
+    background-color: #7180AC;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    max-height: 550px;
+}
+
+.contact h2 {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    font-size: 32px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.contact form {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin: 15px auto;
+    padding: 9px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.contact textarea {
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    color: #7180AC;
+    outline: none;
+    font-weight: bold;
+}
+
+form .btn {
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 8px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all .4s ease;
+    width: 120px;
+}
+
+form .btn:hover {
+    background-color: white;
+    color: #1dd1a1;
+    transform: scale(1.05);
+}
+
+/* -----------------------
+        Footer
+------------------------ */
+
+footer {
+    background-color: #222f3e;
+    color: #fff;
+    padding: 20px 70px;
+}
